@@ -1,7 +1,7 @@
 CC = nvcc
 ARCH = sm_70
 EXE = nvlinklatency.exe 
-LDFLAG = -lcudnn -lcublas -g -G
+LDFLAG = -lcudnn -lcublas -lcurand -g -G
 .SUFFIXES: .cu .exe
 
 all : $(EXE)
