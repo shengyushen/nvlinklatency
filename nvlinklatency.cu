@@ -120,9 +120,10 @@ __global__ void remainSSY(unsigned int n,unsigned int * pd,unsigned int remssy)
 }
 
 
-void genrandVector(unsigned int ** ppranddev,int src) {
+void genrandVector(unsigned int ** ppranddev,int src,bool genrand) {
 	allocAdviseMemory((void**)ppranddev,RANDSIZEINBYTE,src);
 
+    if(genrand) {
 	//rangen
 	curandGenerator_t gen;
 	CURAND_CALL(curandCreateGenerator(&gen,CURAND_RNG_PSEUDO_DEFAULT));
@@ -132,7 +133,8 @@ void genrandVector(unsigned int ** ppranddev,int src) {
 	int blockSize = 256;
 	int numBlocks = (ITERATION + blockSize - 1) / blockSize;
 	remainSSY<<<numBlocks, blockSize>>>(ITERATION,*ppranddev,SHRINK);
-
+    CURAND_CALL(curandDestroyGenerator(gen));
+    }
 
 }
 
@@ -155,8 +157,11 @@ __global__ void access(unsigned int rep,unsigned int * pranddev,unsigned int * p
 	}
 }
 
-long testlat(int src, int dest,int num_gpus) {
-	cout<<"from "<<src<<" to "<<dest<<endl;
+long testlat(int src, int dest,int num_gpus,bool genrand) {
+    if(genrand) 
+    	cout<<"random address from "<<src<<" to "<<dest<<endl;
+    else
+        cout<<"zero address from "<<src<<" to "<<dest<<endl;
 	//allocate memory on dest
 	unsigned int *pout;
 	allocAdviseMemory((void **)&pout,READSIZEINBYTE,dest);
@@ -164,11 +169,11 @@ long testlat(int src, int dest,int num_gpus) {
 	//generating randome on src
 	checkCudaErrors(cudaSetDevice(src));
 	unsigned int * pranddev;
-	genrandVector(&pranddev,src);
+	genrandVector(&pranddev,src,genrand);
 	
 	//check the geenrated random vector on host
-	//if(src==0 && dest==0) 
-		//checkRandHost(pranddev);
+//	if(src==0 && dest==0) 
+//		checkRandHost(pranddev);
 	syncAllGPU(num_gpus);
 	checkCudaErrors(cudaSetDevice(src));
   auto t1 = chrono::high_resolution_clock::now ();
@@ -209,7 +214,8 @@ main (int argc, char **argv)
 	for(int i=0;i<num_gpus;i++) {
 					for(int j=0;j<num_gpus;j++) {
 //									if(i==0 && j==1) cudaProfilerStart();
-									testlat(i,j,num_gpus);
+									testlat(i,j,num_gpus,false);
+									testlat(i,j,num_gpus,true);
 //									if(i==0 && j==1) cudaProfilerStop();
 					}
 	}
