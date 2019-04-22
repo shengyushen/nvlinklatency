@@ -149,6 +149,12 @@ void  checkRandHost(unsigned int *pranddev) {
 	free(prandhost);
 }
 
+__global__ void access0(unsigned int rep,unsigned int * pranddev,unsigned int * pout) {
+	for(int j=0;j<rep;j++)
+	for(int i=0;i<ITERATION;i++) {
+//		unsigned int xx=pout[0];
+	}
+}
 __global__ void access(unsigned int rep,unsigned int * pranddev,unsigned int * pout) {
 	for(int j=0;j<rep;j++)
 	for(int i=0;i<ITERATION;i++) {
@@ -178,7 +184,10 @@ long testlat(int src, int dest,int num_gpus,bool genrand) {
 	checkCudaErrors(cudaSetDevice(src));
   auto t1 = chrono::high_resolution_clock::now ();
 	unsigned int total=rep*ITERATION;
-	access<<<1,1>>>(rep,pranddev,pout);
+    if(genrand)
+    	access<<<1,1>>>(rep,pranddev,pout);
+    else 
+        access0<<<1,1>>>(rep,pranddev,pout);
 	syncAllGPU(num_gpus);
   auto t2 = chrono::high_resolution_clock::now ();
 
