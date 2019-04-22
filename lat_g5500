@@ -1,0 +1,258 @@
+repeat 10 times
+num_gpus 8
+zero address from 0 to 0
+accessing 2621440 need 0.306891s each need 117.07ns
+random address from 0 to 0
+accessing 2621440 need 1.93461s each need 737.995ns
+zero address from 0 to 1
+accessing 2621440 need 0.283243s each need 108.049ns
+random address from 0 to 1
+accessing 2621440 need 2.62335s each need 1000.73ns
+zero address from 0 to 2
+accessing 2621440 need 0.283202s each need 108.033ns
+random address from 0 to 2
+accessing 2621440 need 2.6737s each need 1019.93ns
+zero address from 0 to 3
+accessing 2621440 need 0.283092s each need 107.991ns
+random address from 0 to 3
+accessing 2621440 need 2.65307s each need 1012.07ns
+zero address from 0 to 4
+accessing 2621440 need 0.283081s each need 107.987ns
+random address from 0 to 4
+accessing 2621440 need 2.66993s each need 1018.5ns
+zero address from 0 to 5
+accessing 2621440 need 0.28308s each need 107.986ns
+random address from 0 to 5
+accessing 2621440 need 6.73739s each need 2570.11ns
+zero address from 0 to 6
+accessing 2621440 need 0.283095s each need 107.992ns
+random address from 0 to 6
+accessing 2621440 need 6.72107s each need 2563.88ns
+zero address from 0 to 7
+accessing 2621440 need 0.283098s each need 107.993ns
+random address from 0 to 7
+accessing 2621440 need 6.77191s each need 2583.28ns
+zero address from 1 to 0
+accessing 2621440 need 0.314378s each need 119.926ns
+random address from 1 to 0
+accessing 2621440 need 2.60779s each need 994.791ns
+zero address from 1 to 1
+accessing 2621440 need 0.283448s each need 108.127ns
+random address from 1 to 1
+accessing 2621440 need 1.93585s each need 738.468ns
+zero address from 1 to 2
+accessing 2621440 need 0.283394s each need 108.106ns
+random address from 1 to 2
+accessing 2621440 need 2.69098s each need 1026.53ns
+zero address from 1 to 3
+accessing 2621440 need 0.283335s each need 108.084ns
+random address from 1 to 3
+accessing 2621440 need 2.67573s each need 1020.71ns
+zero address from 1 to 4
+accessing 2621440 need 0.283389s each need 108.104ns
+random address from 1 to 4
+accessing 2621440 need 6.7321s each need 2568.09ns
+zero address from 1 to 5
+accessing 2621440 need 0.283391s each need 108.105ns
+random address from 1 to 5
+accessing 2621440 need 2.69759s each need 1029.05ns
+zero address from 1 to 6
+accessing 2621440 need 0.283432s each need 108.121ns
+random address from 1 to 6
+accessing 2621440 need 6.73534s each need 2569.33ns
+zero address from 1 to 7
+accessing 2621440 need 0.28339s each need 108.105ns
+random address from 1 to 7
+accessing 2621440 need 6.79653s each need 2592.67ns
+zero address from 2 to 0
+accessing 2621440 need 0.312457s each need 119.193ns
+random address from 2 to 0
+accessing 2621440 need 2.67353s each need 1019.87ns
+zero address from 2 to 1
+accessing 2621440 need 0.283057s each need 107.978ns
+random address from 2 to 1
+accessing 2621440 need 2.67623s each need 1020.9ns
+zero address from 2 to 2
+accessing 2621440 need 0.283143s each need 108.011ns
+random address from 2 to 2
+accessing 2621440 need 1.93424s each need 737.852ns
+zero address from 2 to 3
+accessing 2621440 need 0.28306s each need 107.979ns
+random address from 2 to 3
+accessing 2621440 need 2.69519s each need 1028.13ns
+zero address from 2 to 4
+accessing 2621440 need 0.283057s each need 107.978ns
+random address from 2 to 4
+accessing 2621440 need 6.72834s each need 2566.66ns
+zero address from 2 to 5
+accessing 2621440 need 0.283056s each need 107.977ns
+random address from 2 to 5
+accessing 2621440 need 6.76814s each need 2581.84ns
+zero address from 2 to 6
+accessing 2621440 need 0.283062s each need 107.979ns
+random address from 2 to 6
+accessing 2621440 need 2.68225s each need 1023.2ns
+zero address from 2 to 7
+accessing 2621440 need 0.283061s each need 107.979ns
+random address from 2 to 7
+accessing 2621440 need 6.81708s each need 2600.51ns
+zero address from 3 to 0
+accessing 2621440 need 0.319228s each need 121.776ns
+random address from 3 to 0
+accessing 2621440 need 2.6551s each need 1012.84ns
+zero address from 3 to 1
+accessing 2621440 need 0.283046s each need 107.974ns
+random address from 3 to 1
+accessing 2621440 need 2.66071s each need 1014.98ns
+zero address from 3 to 2
+accessing 2621440 need 0.283112s each need 107.999ns
+random address from 3 to 2
+accessing 2621440 need 2.66016s each need 1014.77ns
+zero address from 3 to 3
+accessing 2621440 need 0.283057s each need 107.978ns
+random address from 3 to 3
+accessing 2621440 need 1.93405s each need 737.781ns
+zero address from 3 to 4
+accessing 2621440 need 0.283045s each need 107.973ns
+random address from 3 to 4
+accessing 2621440 need 6.74054s each need 2571.31ns
+zero address from 3 to 5
+accessing 2621440 need 0.283059s each need 107.978ns
+random address from 3 to 5
+accessing 2621440 need 6.75156s each need 2575.52ns
+zero address from 3 to 6
+accessing 2621440 need 0.283093s each need 107.991ns
+random address from 3 to 6
+accessing 2621440 need 6.78008s each need 2586.4ns
+zero address from 3 to 7
+accessing 2621440 need 0.283047s each need 107.974ns
+random address from 3 to 7
+accessing 2621440 need 2.65807s each need 1013.97ns
+zero address from 4 to 0
+accessing 2621440 need 0.318466s each need 121.485ns
+random address from 4 to 0
+accessing 2621440 need 2.67864s each need 1021.82ns
+zero address from 4 to 1
+accessing 2621440 need 0.283055s each need 107.977ns
+random address from 4 to 1
+accessing 2621440 need 6.72855s each need 2566.74ns
+zero address from 4 to 2
+accessing 2621440 need 0.283046s each need 107.973ns
+random address from 4 to 2
+accessing 2621440 need 6.72776s each need 2566.44ns
+zero address from 4 to 3
+accessing 2621440 need 0.283056s each need 107.977ns
+random address from 4 to 3
+accessing 2621440 need 6.75645s each need 2577.38ns
+zero address from 4 to 4
+accessing 2621440 need 0.283048s each need 107.974ns
+random address from 4 to 4
+accessing 2621440 need 1.93423s each need 737.85ns
+zero address from 4 to 5
+accessing 2621440 need 0.283044s each need 107.973ns
+random address from 4 to 5
+accessing 2621440 need 2.65415s each need 1012.48ns
+zero address from 4 to 6
+accessing 2621440 need 0.283045s each need 107.973ns
+random address from 4 to 6
+accessing 2621440 need 2.64858s each need 1010.35ns
+zero address from 4 to 7
+accessing 2621440 need 0.283045s each need 107.973ns
+random address from 4 to 7
+accessing 2621440 need 2.68491s each need 1024.21ns
+zero address from 5 to 0
+accessing 2621440 need 0.303902s each need 115.929ns
+random address from 5 to 0
+accessing 2621440 need 6.73704s each need 2569.98ns
+zero address from 5 to 1
+accessing 2621440 need 0.283089s each need 107.99ns
+random address from 5 to 1
+accessing 2621440 need 2.69611s each need 1028.49ns
+zero address from 5 to 2
+accessing 2621440 need 0.283086s each need 107.989ns
+random address from 5 to 2
+accessing 2621440 need 6.75794s each need 2577.95ns
+zero address from 5 to 3
+accessing 2621440 need 0.283089s each need 107.99ns
+random address from 5 to 3
+accessing 2621440 need 6.77736s each need 2585.36ns
+zero address from 5 to 4
+accessing 2621440 need 0.283094s each need 107.992ns
+random address from 5 to 4
+accessing 2621440 need 2.67678s each need 1021.11ns
+zero address from 5 to 5
+accessing 2621440 need 0.283092s each need 107.991ns
+random address from 5 to 5
+accessing 2621440 need 1.93425s each need 737.857ns
+zero address from 5 to 6
+accessing 2621440 need 0.283089s each need 107.99ns
+random address from 5 to 6
+accessing 2621440 need 2.66662s each need 1017.24ns
+zero address from 5 to 7
+accessing 2621440 need 0.283093s each need 107.992ns
+random address from 5 to 7
+accessing 2621440 need 2.67687s each need 1021.14ns
+zero address from 6 to 0
+accessing 2621440 need 0.296405s each need 113.07ns
+random address from 6 to 0
+accessing 2621440 need 6.73839s each need 2570.49ns
+zero address from 6 to 1
+accessing 2621440 need 0.283472s each need 108.136ns
+random address from 6 to 1
+accessing 2621440 need 6.7684s each need 2581.94ns
+zero address from 6 to 2
+accessing 2621440 need 0.283457s each need 108.13ns
+random address from 6 to 2
+accessing 2621440 need 2.68417s each need 1023.93ns
+zero address from 6 to 3
+accessing 2621440 need 0.283689s each need 108.219ns
+random address from 6 to 3
+accessing 2621440 need 6.77782s each need 2585.53ns
+zero address from 6 to 4
+accessing 2621440 need 0.283615s each need 108.19ns
+random address from 6 to 4
+accessing 2621440 need 2.67353s each need 1019.87ns
+zero address from 6 to 5
+accessing 2621440 need 0.283421s each need 108.117ns
+random address from 6 to 5
+accessing 2621440 need 2.69087s each need 1026.49ns
+zero address from 6 to 6
+accessing 2621440 need 0.283392s each need 108.106ns
+random address from 6 to 6
+accessing 2621440 need 1.93611s each need 738.569ns
+zero address from 6 to 7
+accessing 2621440 need 0.283503s each need 108.148ns
+random address from 6 to 7
+accessing 2621440 need 2.67931s each need 1022.08ns
+zero address from 7 to 0
+accessing 2621440 need 0.312243s each need 119.111ns
+random address from 7 to 0
+accessing 2621440 need 6.76327s each need 2579.98ns
+zero address from 7 to 1
+accessing 2621440 need 0.283044s each need 107.973ns
+random address from 7 to 1
+accessing 2621440 need 6.78173s each need 2587.03ns
+zero address from 7 to 2
+accessing 2621440 need 0.28304s each need 107.971ns
+random address from 7 to 2
+accessing 2621440 need 6.79388s each need 2591.66ns
+zero address from 7 to 3
+accessing 2621440 need 0.283039s each need 107.971ns
+random address from 7 to 3
+accessing 2621440 need 2.67883s each need 1021.89ns
+zero address from 7 to 4
+accessing 2621440 need 0.28304s each need 107.971ns
+random address from 7 to 4
+accessing 2621440 need 2.67406s each need 1020.07ns
+zero address from 7 to 5
+accessing 2621440 need 0.283038s each need 107.971ns
+random address from 7 to 5
+accessing 2621440 need 2.65124s each need 1011.37ns
+zero address from 7 to 6
+accessing 2621440 need 0.283039s each need 107.971ns
+random address from 7 to 6
+accessing 2621440 need 2.66617s each need 1017.06ns
+zero address from 7 to 7
+accessing 2621440 need 0.283047s each need 107.974ns
+random address from 7 to 7
+accessing 2621440 need 1.93437s each need 737.903ns
